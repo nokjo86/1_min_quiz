@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "3 min quiz gem"
   spec.description   = "a gem that contains a short quiz"
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/nokjo86/3_mins_quiz"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
@@ -25,4 +25,7 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
+  
+  spec.add_dependency "colorize", "~>0.8.1"
 end
+
