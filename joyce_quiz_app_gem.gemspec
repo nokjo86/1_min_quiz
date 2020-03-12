@@ -6,9 +6,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Joyce"]
   spec.email         = ["nokjo86@hotmail.com"]
 
-  spec.summary       = "3 min quiz gem"
+  spec.summary       = "1 min quiz gem"
   spec.description   = "a gem that contains a short quiz"
-  spec.homepage      = "https://github.com/nokjo86/3_mins_quiz"
+  spec.homepage      = "https://github.com/nokjo86/1_min_quiz"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
