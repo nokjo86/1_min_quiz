@@ -27,5 +27,10 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
   
   spec.add_dependency "colorize", "~>0.8.1"
+  spec.add_dependency 'tty-prompt', '~> 0.21.0'
+  spec.add_dependency 'tty-font', '~> 0.5.0'
+  spec.add_dependency 'lolcat', '~> 100.0', '>= 100.0.1'
+  spec.add_dependency 'tty-table', '~> 0.11.0'
+  spec.add_dependency 'highline', '~> 2.0', '>= 2.0.3'
 end
 
