@@ -35,9 +35,9 @@ end
 sleep 1
 system ("clear")
 if user_type==1
-  load './tester.rb'
+  load 'tester.rb'
   elsif user_type==2
-    load './creator.rb'
+    load 'creator.rb'
   else 
     puts
     system "echo '      Have a good day' | lolcat"

@@ -116,5 +116,5 @@ case answer
   when 2
   add_question()
   else
-  load './joyce_quiz_app_gem.rb'
+  load 'joyce_quiz_app_gem.rb'
 end

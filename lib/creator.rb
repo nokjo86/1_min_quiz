@@ -11,7 +11,7 @@ def continue
 end
 
 def review()
-  if File.exist?('./tester_summary.csv') == false
+  if File.exist?('tester_summary.csv') == false
     then puts "No Data recorded"
     sleep 2
     menu()
@@ -48,7 +48,7 @@ end
 def login()
   user1 = []
   pwd=[]
-  File.readlines('./test.txt', chomp: true).each.with_index(1) do |line, line_number|
+  File.readlines('test.txt', chomp: true).each.with_index(1) do |line, line_number|
     user1 << line if line_number == 1
     pwd << (line_number == 2 ? line : next)
   end
@@ -83,14 +83,14 @@ def menu()
     when 2
     add_question()
     when 4
-    load './joyce_quiz_app_gem.rb'
+    load 'joyce_quiz_app_gem.rb'
     else
     system('clear')
     puts "Please type YES to confirm"
     print ">"
     input=gets.chomp
       if input == "YES"
-      File.delete('./tester_summary.csv') if File.exist?('./tester_summary.csv')
+      File.delete('tester_summary.csv') if File.exist?('tester_summary.csv')
       end
     menu()
   end
